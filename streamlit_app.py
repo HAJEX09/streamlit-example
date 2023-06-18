@@ -1,11 +1,11 @@
 import streamlit as st
 
+x = # Используем текст с большим размером шрифта
+st.markdown('<span style="font-size: 24px;">Большой текст</span>', unsafe_allow_html=True)
 
 # Определяем переменную для хранения значения чекбокса
-checkbox_value = st.checkbox("")
+checkbox_value = st.checkbox("x")
 
-# Используем текст с большим размером шрифта
-st.markdown('<span style="font-size: 24px;">Большой текст</span>', unsafe_allow_html=True)
 
 # Связываем чекбокс с текстом
 if checkbox_value:
