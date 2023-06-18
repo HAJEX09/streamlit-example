@@ -1,6 +1,18 @@
 import streamlit as st
 
 
+# Определяем переменную для хранения значения чекбокса
+checkbox_value = st.checkbox("")
+
+# Используем текст с большим размером шрифта
+st.markdown('<span style="font-size: 24px;">Большой текст</span>', unsafe_allow_html=True)
+
+# Связываем чекбокс с текстом
+if checkbox_value:
+    st.write("Чекбокс нажат")
+else:
+    st.write("Чекбокс не нажат")
+
 
 # Создание флажка
 is_expanded = st.markdown('<span style="font-size: 24px;"><input type="checkbox"> Нажми на меня</span>', unsafe_allow_html=True)
