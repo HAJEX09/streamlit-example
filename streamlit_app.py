@@ -1,5 +1,8 @@
 import streamlit as st
 
+
+st.markdown('<span style="font-size: 24px;"><input type="checkbox"> Большой текст</span>', unsafe_allow_html=True)
+
 # Создание флажка
 is_expanded = st.checkbox("Нажми на меня")
 
